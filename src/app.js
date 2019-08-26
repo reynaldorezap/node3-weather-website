@@ -1,10 +1,10 @@
-const path = require('path')
-const express = require('express')
-const hbs = require('hbs')
-var geocode = require('./utils/geocode')
-var forecast = require('./utils/forecast')
+const path = require('path');
+const express = require('express');
+const hbs = require('hbs');
+var geocode = require('./utils/geocode');
+var forecast = require('./utils/forecast');
 
-const app = express()
+const app = express();
 
 // Define path for express config
 const publicDirPath = path.join(__dirname,'../public')
